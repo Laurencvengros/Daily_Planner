@@ -12,6 +12,8 @@ setInterval(digitalClock, 1000);
 $(document).ready(function(){
     trackHours();
     
+
+   
 });
 
 function trackHours(){
@@ -35,3 +37,17 @@ function trackHours(){
 
         })
     }
+
+    
+        
+$(".saveBtn").on("click",function(){
+
+    localStorage.setItem($(this).parent().attr("id"), $(this).prev().val());
+   
+
+
+
+ });
+  
+        
+        
