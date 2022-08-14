@@ -12,14 +12,32 @@ setInterval(digitalClock, 1000);
 $(document).ready(function(){
     trackHours();
     
-    $("#hour9 .text").val(localStorage.getItem("hour9"));
-    console.log(localStorage.getItem("hour9"));
+    $("#800am .text").val(localStorage.getItem("800am"));
+    
+    $("#900am .text").val(localStorage.getItem("900am"));
+   
+    $("#1000am .text").val(localStorage.getItem("1000am"));
+    
+    $("#1100am .text").val(localStorage.getItem("1100am"));
+    
+    $("#1200pm .text").val(localStorage.getItem("1200pm"));
+    
+    $("#1300pm .text").val(localStorage.getItem("1300pm"));
+    
+    $("#1400pm .text").val(localStorage.getItem("1400pm"));
+   
+    $("#1500pm .text").val(localStorage.getItem("1500pm"));
+    
+    $("#1600pm .text").val(localStorage.getItem("1600pm"));
+    
+    $("#1700pm .text").val(localStorage.getItem("1700pm"));
+   
     
    
 });
 
 function trackHours(){
-        var currentTime = 10 //moment().hour();
+        var currentTime = moment().hour();
 
         $(".text").each(function(){
             var calendarHour = parseInt($(this).attr("id"));
