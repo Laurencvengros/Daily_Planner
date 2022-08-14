@@ -70,11 +70,19 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-
-.text{
+.row{
+    border-top: 1px dotted black;
+}
+.time{
   height: 100%;
+  text-align: center;
 }
 
-.saveBtn{
-  height: 100%;
+.text{
+    height: 100%;
+    
+}
+
+.savebtn{
+
 }
