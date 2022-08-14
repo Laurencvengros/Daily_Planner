@@ -84,7 +84,18 @@ textarea {
     border-top: 1px dotted black;
     
 }
-
 .savebtn{
 
+}
+
+.past{
+    background-color: grey;
+}
+
+.current{
+    background-color: #77dd77;
+}
+
+.future{
+    background-color: red;
 }
