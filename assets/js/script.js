@@ -9,7 +9,10 @@ $("#currentDay").text(todayDate.format('dddd MMM Do, YYYY, H:mm:ss'));
 digitalClock();
 setInterval(digitalClock, 1000);
 
-
+$(document).ready(function(){
+    trackHours();
+    
+});
 
 function trackHours(){
         var currentTime = moment().hour();
