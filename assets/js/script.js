@@ -12,12 +12,14 @@ setInterval(digitalClock, 1000);
 $(document).ready(function(){
     trackHours();
     
-
+    $("#hour9 .text").val(localStorage.getItem("hour9"));
+    console.log(localStorage.getItem("hour9"));
+    
    
 });
 
 function trackHours(){
-        var currentTime = moment().hour();
+        var currentTime = 10 //moment().hour();
 
         $(".text").each(function(){
             var calendarHour = parseInt($(this).attr("id"));
