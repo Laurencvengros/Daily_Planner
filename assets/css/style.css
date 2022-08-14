@@ -71,15 +71,17 @@ textarea {
 }
 
 .row{
-    border-top: 1px dotted black;
+    
 }
-.time{
+.col-md-2{
   height: 100%;
   text-align: center;
+  border-top: 1px dotted black;
 }
 
-.text{
+.col-md-9{
     height: 100%;
+    border-top: 1px dotted black;
     
 }
 
