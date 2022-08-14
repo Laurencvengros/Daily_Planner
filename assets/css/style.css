@@ -47,7 +47,7 @@ textarea {
   color: white;
 }
 
-.present {
+.current {
   background-color: #ff6961;
   color: white;
 }
@@ -70,32 +70,18 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.row{
-    
-}
 .col-md-2{
-  height: 100%;
-  text-align: center;
-  border-top: 1px dotted black;
-}
-
-.col-md-9{
     height: 100%;
+    text-align: center;
     border-top: 1px dotted black;
-    
-}
-.savebtn{
+  }
+  
+  .text{
+      height: 100%;
+      border-top: 1px dotted black;
+      
+  }
+  
+  
 
-}
-
-.past{
-    background-color: rgb(207, 207, 207);
-}
-
-.current{
-    background-color: #77dd77;
-}
-
-.future{
-    background-color: red;
-}
+  
