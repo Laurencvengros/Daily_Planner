@@ -4,6 +4,8 @@
 
 * Link To Deployed Site
 
+https://laurencvengros.github.io/Daily_Planner/
+
 # Description
 
 * This is a simple daily planner app that will run in your browser.
